@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: bisque;
+/*------check this last--------------*/
+    background-repeat: no-repeat;
+}
+.main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.to_inp{
+    
+    font-size: 24px;
+    color: red;
+    border: none;
+    /*margin-top: 5px;*/
+    margin-bottom: 60px;
+}
+.to_btn{
+    font-size: 23px;
+    cursor: pointer;
+}
+.todo_con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo_con{
+    width: 30%;
+    list-style: none;
+}
